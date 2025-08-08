@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rencana Kegiatan 17 Agustus</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #f8f9fa;
+        padding: 20px;
+      }
+      h1,
+      h2 {
+        font-weight: bold;
+      }
+      table input {
+        width: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mb-4">
+        Rencana Kegiatan & Perlengkapan 17 Agustus
+      </h1>
+
+      <!-- Jadwal -->
+      <div class="card mb-4">
+        <div class="card-header bg-primary text-white">Jadwal Kegiatan</div>
+        <div class="card-body">
+          <ul>
+            <li>
+              <strong>Sabtu</strong>: Kumpulkan peralatan perlombaan & barang
+              yang dibutuhkan.
+            </li>
+            <li>
+              <strong>Minggu pagi (Kerja Bakti)</strong>:
+              <ul>
+                <li>
+                  Survey lapangan untuk menyusun bendera & hitung jumlah yang
+                  dibutuhkan.
+                </li>
+                <li>
+                  Bendera diserahkan ke Pak RT & disimpan di tempat bakas.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>Sebelum Hari-H</strong>: Buat tabel pendaftaran peserta.
+            </li>
+            <li><strong>Mulai</strong>: Jam 08.00</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Tabel Peralatan -->
+      <div class="card mb-4">
+        <div class="card-header bg-success text-white">
+          Peralatan yang Dibutuhkan
+        </div>
+        <div class="card-body">
+          <table class="table table-bordered table-striped" id="peralatanTable">
+            <thead class="table-dark">
+              <tr>
+                <th>No</th>
+                <th>Nama Barang</th>
+                <th>Jumlah</th>
+                <th>Estimasi Harga (Rp)</th>
+                <th>Total (Rp)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Bendera plastik + sedotan</td>
+                <td>2/3 pak</td>
+                <td class="harga">15000</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Kerupuk</td>
+                <td>1 kaleng</td>
+                <td class="harga">30000</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Balon</td>
+                <td>-</td>
+                <td class="harga">20000</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Tali rafia</td>
+                <td>1 roll</td>
+                <td class="harga">10000</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Karung, Helm, Kereng</td>
+                <td>-</td>
+                <td class="harga">40000</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Bongku</td>
+                <td>-</td>
+                <td class="harga">15000</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Piring plastik</td>
+                <td>-</td>
+                <td class="harga">12000</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Tepung</td>
+                <td>3 kg</td>
+                <td class="harga">30000</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Tali tambang</td>
+                <td>-</td>
+                <td class="harga">50000</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Kertas coklat</td>
+                <td>-</td>
+                <td class="harga">10000</td>
+                <td class="total">0</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>Tenda</td>
+                <td>-</td>
+                <td class="harga">250000</td>
+                <td class="total">0</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="table-primary">
+                <th colspan="4" class="text-end">Total Keseluruhan</th>
+                <th id="grandTotal">0</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+      <!-- Perlombaan -->
+      <div class="card mb-4">
+        <div class="card-header bg-warning">Daftar Perlombaan & Juara</div>
+        <div class="card-body">
+          <p>
+            Untuk hadiah lomba, gunakan kertas coklat. Juara 1, 2, 3 untuk tiap
+            lomba.
+          </p>
+          <ul>
+            <li>Pindahin Bendera (Juara 1, 2, 3)</li>
+            <li>Makan Kerupuk (Juara 1, 2, 3)</li>
+            <li>Voli Balon (Juara 1, 2, 3)</li>
+            <li>Balap Karung pakai Helm (Juara 1, 2, 3)</li>
+            <li>Kelereng (Juara 1, 2, 3)</li>
+            <li>Joget Bangku (Juara 1, 2, 3)</li>
+            <li>Estafet Tiup (Juara 1, 2, 3)</li>
+            <li>Tarik Tambang (Juara 1, 2, 3)</li>
+          </ul>
+          <p><strong>Total Juara:</strong> 24 orang</p>
+          <p><strong>Dana Perlombaan:</strong> Rp 3.000.000</p>
+        </div>
+      </div>
+
+      <!-- Cosplay -->
+      <div class="card mb-4">
+        <div class="card-header bg-info text-white">Peserta Cosplay</div>
+        <div class="card-body">
+          <p>
+            <strong>Dress Code:</strong> Celana bebas & baju merah (untuk tgl
+            16).
+          </p>
+          <div class="row">
+            <div class="col">
+              <ul>
+                <li>Arif</li>
+                <li>Salwa</li>
+                <li>Aul</li>
+                <li>Dila</li>
+                <li>Aqila</li>
+                <li>Ridho</li>
+                <li>Fauzan</li>
+                <li>Hudan</li>
+                <li>Fajar</li>
+              </ul>
+            </div>
+            <div class="col">
+              Pegang Drum:
+              <ul>
+                <li>Alif</li>
+                <li>Fahri</li>
+                <li>Fatan</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jalan Santai -->
+      <div class="card mb-4">
+        <div class="card-header bg-secondary text-white">Jalan Santai</div>
+        <div class="card-body">
+          <ul>
+            <li>
+              16 Agustus: Jalan santai, cosplay dari list. Jika tidak cosplay,
+              pakai baju merah putih.
+            </li>
+            <li>
+              Saat jalan santai, jangan sampai ada warga buang sampah
+              sembarangan.
+            </li>
+            <li>Panitia menyiapkan kantong sampah.</li>
+            <li>Kumpul di masjid jam 06.30</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Konsumsi -->
+      <div class="card mb-4">
+        <div class="card-header bg-danger text-white">Konsumsi</div>
+        <div class="card-body">
+          <p>
+            Konsumsi diberikan ke peserta, kecuali ke bagian PKK karena mereka
+            sudah ada konsumsi sendiri.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function hitungTotal() {
+        let grandTotal = 0;
+        document.querySelectorAll("#peralatanTable tbody tr").forEach((row) => {
+          let harga = parseInt(row.querySelector(".harga").textContent) || 0;
+          let total = harga; // Karena jumlahnya tidak dalam bentuk angka fix, kita asumsikan harga sudah total per item/jumlah
+          row.querySelector(".total").textContent =
+            total.toLocaleString("id-ID");
+          grandTotal += total;
+        });
+        document.getElementById("grandTotal").textContent =
+          grandTotal.toLocaleString("id-ID");
+      }
+
+      hitungTotal();
+    </script>
+  </body>
+</html>
