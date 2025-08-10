@@ -58,116 +58,136 @@
       </div>
 
       <!-- Tabel Peralatan -->
-      <div class="card mb-4">
-        <div class="card-header bg-success text-white">
-          Peralatan yang Dibutuhkan
-        </div>
-        <div class="card-body">
-          <table class="table table-bordered table-striped" id="peralatanTable">
-            <thead class="table-dark">
-              <tr>
-                <th>No</th>
-                <th>Nama Barang</th>
-                <th>Jumlah</th>
-                <th>Estimasi Harga (Rp)</th>
-                <th>Total (Rp)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Bendera plastik + sedotan</td>
-                <td>2/3 pak</td>
-                <td class="harga">15000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Kerupuk</td>
-                <td>1 kaleng</td>
-                <td class="harga">30000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Balon</td>
-                <td>-</td>
-                <td class="harga">20000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Tali rafia</td>
-                <td>1 roll</td>
-                <td class="harga">10000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Karung, Helm, Kelereng</td>
-                <td>-</td>
-                <td class="harga">40000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Bangku</td>
-                <td>-</td>
-                <td class="harga">15000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>7</td>
-                <td>Piring plastik</td>
-                <td>-</td>
-                <td class="harga">12000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>8</td>
-                <td>Tepung</td>
-                <td>3 kg</td>
-                <td class="harga">30000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>9</td>
-                <td>Tali tambang</td>
-                <td>-</td>
-                <td class="harga">50000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>Kertas coklat</td>
-                <td>-</td>
-                <td class="harga">10000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>11</td>
-                <td>Tenda</td>
-                <td>-</td>
-                <td class="harga">250000</td>
-                <td class="total">0</td>
-              </tr>
-              <tr>
-                <td>12</td>
-                <td>Solatip</td>
-                <td>-</td>
-                <td class="harga">20000</td>
-                <td class="total">0</td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr class="table-primary">
-                <th colspan="4" class="text-end">Total Keseluruhan</th>
-                <th id="grandTotal">0</th>
-              </tr>
-            </tfoot>
-          </table>
-        </div>
+<div class="container py-5">
+  <div class="card shadow">
+    <div class="card-header bg-primary text-white text-center">
+      <h4 class="mb-0">📊 Laporan Keuangan</h4>
+      <small>10 Agustus 2025</small>
+    </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th>#</th>
+              <th>Item</th>
+              <th>Nominal</th>
+              <th>Tipe</th>
+              <th>Tanggal</th>
+              <th>Track</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Uang dari pak rt</td>
+              <td>Rp 500.000,00</td>
+              <td class="text-success fw-bold">income</td>
+              <td>2025-08-10</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Ember 30LT</td>
+              <td>Rp 60.000,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>Toko Perabotan Bunda</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Ember 40LT Hitam</td>
+              <td>Rp 40.000,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>Toko Perabotan Bunda</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Ember Tenteng</td>
+              <td>Rp 50.000,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>Toko Perabotan Bunda</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Bendera gagang sedotan</td>
+              <td>Rp 22.500,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>SDH Proklamasi</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Swan Tali Warna 1KG</td>
+              <td>Rp 25.000,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>SDH Proklamasi</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Balon</td>
+              <td>Rp 30.000,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>SDH Proklamasi</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Isolasi</td>
+              <td>Rp 15.000,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>SDH Proklamasi</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Kertas Kopi</td>
+              <td>Rp 13.500,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>SDH Proklamasi</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Double tape</td>
+              <td>Rp 6.000,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>SDH Proklamasi</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>Semar bendera plastik</td>
+              <td>Rp 17.000,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>SDH Proklamasi</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>Benang rajut</td>
+              <td>Rp 15.000,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>SDH Proklamasi</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>Uang parkir</td>
+              <td>Rp 5.000,00</td>
+              <td class="text-danger fw-bold">expense</td>
+              <td>2025-08-10</td>
+              <td>Kembalian dari benang rajut</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+    </div>
+  </div>
+</div>
       <!-- Perlombaan -->
       <div class="card mb-4">
         <div class="card-header bg-warning">Daftar Perlombaan & Juara</div>
